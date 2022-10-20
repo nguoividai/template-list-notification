@@ -48,7 +48,7 @@
                       notifications[i]?.pictureSrc
                         ? `
                         <div class="top-notification-picture-area">
-                                <img src="./assets/images/image-chess.webp" alt="picture" />
+                                <img src="${notifications[i].pictureSrc}" alt="picture" />
                         </div>`
                         : ""
                     }
