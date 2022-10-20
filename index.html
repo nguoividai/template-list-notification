@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./app.css" />
+
+    <!-- declare constant variable in here -->
+    <script type="text/javascript" src="./script/constants/seeder.js"></script>
+
+    <title>Top Developer | Notifications page</title>
+
+    <!-- Feel free to remove these styles or customize in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="top-container">
+      <div class="top-tool">
+        <!-- <a id="button-100-add-new" class="button" href="javascript:;">
+          + Add new 100 notification
+        </a> -->
+        <a id="button-add-new" class="button" href="javascript:;">
+          + Add new notification
+        </a>
+      </div>
+      <div class="top-notification-container">
+        <div class="top-card">
+          <div class="top-card-title">
+            <span class="top-extra-bold"> Notification </span>
+            <span id="total-unread" class="top-badge">3</span>
+            <a
+              id="button-mark-all-as-read"
+              href="javascript:;"
+              class="top-card-title-action"
+            >
+              Mark all as read
+            </a>
+          </div>
+          <div class="top-card-body">
+            <div id="top-list-binding" class="top-list-container">
+              <!-- <div class="top-list-notification">
+                <div class="top-notification-avatar-area">
+                  <img
+                    class="top-notification-avatar"
+                    src="./assets/images/avatar-angela-gray.webp"
+                    alt="avatar"
+                  />
+                </div>
+                <div class="top-notification-content-area">
+                  <div class="top-notification-title">
+                    <a>Mark</a> tiêu đề của notification
+                    <span class="top-badge-dot"></span>
+                  </div>
+
+                  <div class="top-notification-extra">1m ago</div>
+                  <div class="top-notification-description">
+                    Đây là mô tả dài dòng
+                  </div>
+                </div>
+                <div class="top-notification-picture-area">
+                  <img src="./assets/images/image-chess.webp" alt="picture" />
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by &nbsp;
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+        Frontend Mentor</a
+      >. Coded by &nbsp;<a href="#">Top Developer</a>.
+    </div>
+    <script type="text/javascript" src="./script/app.js"></script>
+  </body>
+</html>
