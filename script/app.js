@@ -77,7 +77,7 @@
     const addNewNotification = () => {
       const newItem = {
         id: +notifications?.[0].id + 1 || 1,
-        avatarSrc: "../../assets/images/avatar-angela-gray.webp",
+        avatarSrc: "./assets/images/avatar-mark-webber.webp",
         title: "<a>New notification</a>  has been created",
         isNew: true,
         description: "",
